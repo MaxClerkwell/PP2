@@ -71,7 +71,8 @@ Try accessing the `return_value` identifier without prepending `$`.
 **What happens and why?**
 
 <details>
-    <summary>You Answer</summary>
+    der Command echo $return_value gibt den Wert, der in der Variable gespeichert wird (9) aus
+    und echo return_value gibt den String "return_value" aus. 
     ......
 </details>
 
@@ -98,6 +99,7 @@ and pressing `enter`.
 <details>
     <summary>Calling a Function</summary>
     Include a screenshot of your function-call!
+
 </details>
 
 ### Task 4: Handling Parameters
