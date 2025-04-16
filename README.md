@@ -98,6 +98,8 @@ and pressing `enter`.
 
 <details>
     <summary>Calling a Function</summary>
+   ![image](https://github.com/user-attachments/assets/3b866e98-be18-4037-89bb-c2296c1e5287)
+
     Include a screenshot of your function-call!
 
 </details>
