@@ -71,7 +71,8 @@ Try accessing the `return_value` identifier without prepending `$`.
 **What happens and why?**
 
 <details>
-    <summary>You Answer</summary>
+    der Command echo $return_value gibt den Wert, der in der Variable gespeichert wird (9) aus
+    und echo return_value gibt den String "return_value" aus. 
     ......
 </details>
 
@@ -98,6 +99,7 @@ and pressing `enter`.
 <details>
     <summary>Calling a Function</summary>
     Include a screenshot of your function-call!
+
 </details>
 
 ### Task 4: Handling Parameters
@@ -263,7 +265,32 @@ These examples demonstrate various fundamental operations in Bash scripting, inc
     <summary>Your Function</summary>
     
 ```bash
-your code
+my_bash_function() {
+    # 1. Arithmetic operation
+    num1=12
+    num2=4
+    sum=$((num1 + num2))
+    
+    # 2.
+    a=-5
+    b=10
+    if [[ $a -gt 0 || $b -gt 0 ]]; then
+    echo "At least one of a or b is greater than 0."
+    fi
+    
+    # 3.let result=5+3
+    echo "5 + 3 = $result"
+
+    # Output all values
+    echo "Sum of $num1 and $num2 is: $sum"
+    echo "At least one of a or b is greater than 0."
+    echo "5 + 3 = $result"
+}
+
+# Call the function
+my_bash_function
+
+
 ```
 
 </details>
@@ -446,3 +473,4 @@ When you finished that tutorial, open a file in your home directory and manipula
 ---
 
 **Remember:** Stop working after 90 minutes and record where you stopped!
+ich hatte Schwierigkeiten die Screenshots hier zu laden und habe ich nicht geschafft alle aufgaben zu erledigen.
